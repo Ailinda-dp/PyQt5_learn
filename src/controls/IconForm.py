@@ -31,7 +31,7 @@ class IconForm(QMainWindow):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
 
-    app.setWindowIcon(QIcon('../../images/wmp.ico'))
+    app.setWindowIcon(QIcon('images/wmp.ico'))
     main = IconForm()
     main.show()
 
