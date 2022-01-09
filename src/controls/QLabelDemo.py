@@ -31,6 +31,7 @@ class QLabelDemo(QWidget):
 
         label4.setText("<a href='https://item.jd.com/12417265.html'>感谢关注《python从菜鸟到高手》</a>")
         label4.setAlignment(Qt.AlignRight)
+        # 如果设为True，用浏览器打开链接，如果设为False，连接到槽
         label4.setOpenExternalLinks(True)
         label4.setToolTip('这是一个超级链接')
 
